@@ -1,0 +1,31 @@
+XStream is a simple Java-based library to serialize Java objects to XML and vice versa.
+
+Features
+Easy to use - XStream API provides a high-level facade to simplify common use cases.
+
+No need to create mapping - XStream API provides default mapping for most of the objects to be serialized.
+
+Performance - XStream is fast and is of low memory footprint, which is suitable for large object graphs or systems.
+
+Clean XML - XStream produces clean and compact XML output that is easy to read.
+
+Object modification not required - XStream serializes internal fields like private and final fields, and supports non-public and inner classes. Default constructor is not a mandatory requirement.
+
+Full object graph support - XStream allows to maintain duplicate references encountered in the object-model and also supports circular references.
+
+Customizable conversion strategies - Custom strategies can be registered in order to allow customization of a particular type to be represented as XML.
+
+Security framework - XStream provides a fair control over unmarshalled types to prevent security issues with manipulated input.
+
+Error messages - When an exception occurs due to malformed XML, it provides detailed diagnostics to fix the problem.
+
+Alternative output format - XStream supports other output formats like JSON and morphing.
+
+Common Uses
+Transport
+Persistence
+Configuration
+Unit Tests
+
+
+Required jar:  xstream-1.4.9.jar or above version
